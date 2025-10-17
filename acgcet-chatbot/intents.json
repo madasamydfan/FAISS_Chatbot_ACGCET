@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! Welcome to College Assistant.", "Hi there! How can I help you?"],
+      "link": null
+    },
+    {
+      "tag": "greeting_response",
+      "patterns": ["I am good", "Fine", "Doing well"],
+      "responses": ["Great to hear that! How can I assist you today?"],
+      "link": null
+    }
+  ]
+}
