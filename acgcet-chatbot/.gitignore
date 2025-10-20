@@ -1,0 +1,3 @@
+venv
+embeddings.npy
+faiss_index.bin
