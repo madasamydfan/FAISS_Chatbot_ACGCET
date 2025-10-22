@@ -125,7 +125,7 @@ async def ask(request: Request):
 
 
 @app.get("/generate_embeddings")
-def generate_embeddings_endpoint(force: bool = False):
+def generate_embeddings_endpoint(force: bool = True):
     """Optional endpoint to regenerate embeddings/index manually."""
     generate_embeddings_and_index(force)
     return {"status": "Embeddings and index generated successfully!"}
@@ -134,3 +134,5 @@ def generate_embeddings_endpoint(force: bool = False):
 @app.get("/")
 def home():
     return {"message": "ACGCET Chatbot is running 🚀"}
+
+#  uvicorn app:app --reload --host 0.0.0.0 --port 8000 
