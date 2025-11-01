@@ -1,5 +1,13 @@
-fastapi
-uvicorn
-sentence-transformers
-faiss-cpu
-numpy
+# fastapi
+# uvicorn
+# sentence-transformers
+# faiss-cpu
+# numpy
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+gunicorn==20.1.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+numpy==1.26.0
+torch==2.2.0  # CPU-only; remove or change if you plan GPU
+
