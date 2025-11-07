@@ -1,13 +1,17 @@
-# fastapi
-# uvicorn
-# sentence-transformers
-# faiss-cpu
-# numpy
 fastapi
-uvicorn[standard]
-gunicorn
+uvicorn
 sentence-transformers
 faiss-cpu
 numpy
+
+
+
+
+# fastapi
+# uvicorn[standard]
+# gunicorn
+# sentence-transformers
+# faiss-cpu
+# numpy
  # CPU-only; remove or change if you plan GPU
 
