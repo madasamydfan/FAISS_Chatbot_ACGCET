@@ -17,7 +17,7 @@ app2 = FastAPI(title="ACGCET Chatbot - AWS Titan", version="2.0")
 
 # Enable CORS (production: restrict origins if needed)
 app2.add_middleware(
-    CORSMiddleware,
+    CORSMiddleware, 
     allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
