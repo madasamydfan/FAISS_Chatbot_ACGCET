@@ -139,3 +139,4 @@ def home():
 
 # Run command in production:
 # uvicorn app2:app2 --host 0.0.0.0 --port 8000
+ #$env:AWS_BEARER_TOKEN_BEDROCK = "Your api key"  
